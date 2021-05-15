@@ -12,9 +12,9 @@ while(item != ''){
     alert ('end of record')
   }
 }
-console.log(items,prices)
+document.write('Items:' + items +'<br>' +'Prices: ' + prices)
 let total = prices.reduce(function(a,b){
   return a + b;
 },0)
-console.log('Total Sales Recorded is '+ total)
+document.write('<br>' + 'Total Sales Recorded is '+ total)
   
