@@ -6,7 +6,19 @@
     <title>Sales Recorder</title>
   </head>
   <body>
-    <h2>Record your Total Sales</h2>
-    <script src="sales.js" type="text/javascript" charset="utf-8"></script>
+    <h2>Welcome to Sandra's Sales Recorder 👏</h2>
+    <p>Record sales swiftly</p>
+    <table border="2" id="table">
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Item</th>
+          <th>Selling Price</th>
+        </tr>
+      </thead>
+    </table>
+   <button id="btn" onclick="addItem()">Add Item</button>
+   <button onclick="checkTotal()">Click here to Calculate your total sales</button>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
